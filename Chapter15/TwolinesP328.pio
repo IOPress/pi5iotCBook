@@ -1,0 +1,6 @@
+.program squarewave
+    set pindirs, 3  
+    pull block    
+again:
+    out pins,2
+    jmp again 

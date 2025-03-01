@@ -1,5 +1,10 @@
 {
     "files.associations": {
-        "gpio5.h": "c"
+        "gpio5.h": "c",
+        "sqwavep317.pio.h": "c",
+        "pio.h": "c",
+        "stdlib.h": "c",
+        "errno.h": "c",
+        "unistd.h": "c"
     }
 }

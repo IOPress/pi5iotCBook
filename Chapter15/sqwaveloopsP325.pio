@@ -1,0 +1,13 @@
+.program squarewave
+    set pindirs, 1  
+    pull block
+again:
+    set pins, 1 
+    mov x, osr
+ loop1: 
+     jmp x--,loop1
+    set pins, 0 
+    mov x, osr
+ loop2:  
+   jmp x--,loop2 
+jmp again 

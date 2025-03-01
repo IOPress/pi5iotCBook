@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -Werror CMakeFiles/dpi_csync.dir/dpi_csync.c.o ../CMakeFiles/pio.dir/piolib.c.o ../CMakeFiles/pio.dir/pio_rp1.c.o -o dpi_csync 

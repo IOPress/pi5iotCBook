@@ -1,0 +1,6 @@
+.program squarewave
+    set pindirs, 1   ; Set pin to output
+again:
+    set pins, 1      ; Drive pin high
+    set pins, 0      ; Drive pin low
+    jmp again        ; Set PC to label `again`

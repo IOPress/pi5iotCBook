@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -Werror CMakeFiles/piows2812.dir/ws2812.c.o ../CMakeFiles/pio.dir/piolib.c.o ../CMakeFiles/pio.dir/pio_rp1.c.o -o piows2812 

@@ -1,0 +1,1 @@
+/usr/bin/cc  -Wall -Wextra -Werror CMakeFiles/piotest.dir/piotest.c.o ../CMakeFiles/pio.dir/piolib.c.o ../CMakeFiles/pio.dir/pio_rp1.c.o -o piotest 
