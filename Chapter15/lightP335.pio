@@ -1,0 +1,5 @@
+.program light 
+again:
+ in pins,1
+ push block
+ jmp  again  

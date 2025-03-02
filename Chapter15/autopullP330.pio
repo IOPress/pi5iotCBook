@@ -1,0 +1,4 @@
+.program squarewave   
+again:
+  out pins,2
+  jmp again 

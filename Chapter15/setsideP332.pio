@@ -1,0 +1,5 @@
+.program squarewave   
+.side_set 1 opt
+again:
+  nop side 1
+  jmp  again side 0 
