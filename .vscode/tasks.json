@@ -16,12 +16,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-I../piolib/include",
                 "-I../Gpio5",            
                 "${file}",
-                "../Gpio5/Gpio5.c",
-                "../piolib/piolib.c",
-                "../piolib/pio_rp1.c",
+                "../Gpio5/Gpio5.c",            
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                  "-lgpiod",
@@ -62,7 +59,8 @@
                 "../piolib/piolib.c",
                 "../piolib/pio_rp1.c",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"                             
+                "${fileDirname}/${fileBasenameNoExtension}",   
+                "-lgpiod"                       
                  
             ],
             "options": {

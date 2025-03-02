@@ -1,0 +1,30 @@
+.program dht
+ set pins, 1 
+ set pindirs, 1 
+again:
+ pull block
+ set pins, 0
+mov x, osr
+loop1: 
+ jmp x--,loop1
+set pindirs, 0 
+wait 1 pin 0
+wait 0 pin 0
+wait 1 pin 0
+wait 0 pin 0
+
+set y,31
+bits:
+ wait 1 pin 0 [25]
+ in pins,1 
+ wait 0 pin 0
+ jmp y--,bits
+
+ set y,7
+check:
+wait 1 pin 0 [25]
+ in pins,1 
+ wait 0 pin 0 
+ jmp y--,check
+push block
+jmp again

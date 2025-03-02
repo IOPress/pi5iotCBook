@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "Gpio5.h"
 
-inline  void WaitFallingEdge(int gpio)
+void WaitFallingEdge(int gpio)
 {
     while (gpio_get(gpio) == 1)
     {
