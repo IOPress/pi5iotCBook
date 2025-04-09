@@ -1,8 +1,3 @@
-
-//Set add 
-// #define _USEPIO 1
-//to Gpio5.h
-//to remove duplicate defininition of sleep_us
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "sqwaveP317.pio.h"
